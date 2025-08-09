@@ -173,8 +173,6 @@ npm install
 
 ### 3. Firebase 설정
 
-**중요: 보안을 위해 환경변수 사용을 권장합니다**
-
 ```bash
 # .env 파일 생성
 cp .env.example .env
@@ -188,11 +186,6 @@ EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
 EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
-
-⚠️ **보안 주의사항**: 
-- `.env` 파일은 절대 Git에 커밋하지 마세요
-- 프로덕션 환경에서는 환경변수를 통해 설정값을 주입하세요
-- Firebase 프로젝트의 도메인 제한 설정을 확인하세요
 
 ### 4. 개발 서버 실행
 
